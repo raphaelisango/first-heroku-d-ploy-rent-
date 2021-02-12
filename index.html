@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in</title>
+    <link rel="icon" type="image/png" href="assets/images/logo/logo512.png" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="assets/css/style1x.css" />
+
+    <style>
+      .myimg {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="divy">
+        <div id="mySidenav" class="sidenav">
+          <a class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <!--<a href="fashion.html">Whatever 1</a>
+          <a href="electronic.html">Whatever 2</a>
+          <a href="jewellery.html">Whatever 3</a>--->
+        </div>
+        <span class="toggle_icon" onclick="openNav()"
+          ><i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </nav>
+    <div class="Bg-section Container">
+      <div class="fullscreen-video-wrapper">
+        <video src="assets/vid/vid.mp4" autoplay="true" loop="true"></video>
+      </div>
+      <div class="overlay"></div>
+      <div class="overlayBanner">
+        <img src="assets/images/banner/banner.png" alt="" />
+      </div>
+
+      <!--<div
+        class="container full-screen d-lg-flex justify-content-center align-items-center Breadcrumb"
+        id="about"
+      >
+        <div class="row">
+          <div
+            class="col-lg-7 col-md-12 col-12 d-flex d-flex-center align-items-center"
+          >
+            <img class="loginLogo" src="assets/images/logo/logo512.png" />
+          </div>
+
+          <div class="col-lg-5 col-md-12 mx-auto col-12 form-responsive">
+            <div class="contact-form">
+              <h2 class="mb-4">
+                <h1 class="animated animated-text">
+                  <span class="mr-2">Hey folks, put whatever you</span>
+                  <div class="animated-info">
+                    <span class="animated-item">want </span>
+                    <span class="animated-item">like</span>
+                    <span class="animated-item">wish</span>
+                  </div>
+                  <span class="mr-2">,Hey lorem ipsum</span>
+                </h1>
+              </h2>
+
+              <form>
+                <div class="row">
+                  <div class="col-lg-12 col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="code"
+                      placeholder="ENTER EMEI CODE"
+                      id="code"
+                    />
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-12 col-12">
+                    <div class="alert" id="alrtmsg">
+                      <span id="message"></span>
+                    </div>
+                    <input
+                      type="submit"
+                      class="form-control submit-btn"
+                      value="Send Button"
+                      id="sbmit"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>-->
+    </div>
+    <div class="cover-container">
+      <div class="cover">
+        <div
+          class="container full-screen d-lg-flex justify-content-center align-items-center Breadcrumb"
+        >
+          <div class="row">
+            <div
+              class="col-lg-7 col-md-12 col-12 d-flex d-flex-center align-items-center"
+            >
+              <img class="loginLogo" src="assets/images/logo/logo512.png" />
+            </div>
+
+            <div class="col-lg-5 col-md-12 mx-auto col-12 form-responsive">
+              <div class="contact-form">
+                <h2 class="mb-4">
+                  <h1 class="animated animated-text">
+                    <span class="mr-2 title"
+                      >Smart Meter,<br /><span class="small-size"
+                        >a digital</span
+                      ></span
+                    >
+                    <div class="animated-info">
+                      <span class="animated-item"> solution</span
+                      ><span class="animated-item"> support</span
+                      ><span class="animated-item"> pathWay </span>
+                    </div>
+                    <span class="mr-2 sloganright">
+                      that connects your power to you</span
+                    >
+                  </h1>
+                </h2>
+
+                <form>
+                  <div class="row">
+                    <div class="col-lg-12 col-12">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="code"
+                        placeholder="ENTER EMEI CODE"
+                        id="code"
+                      />
+                    </div>
+
+                    <div class="ml-lg-auto col-lg-12 col-12">
+                      <div class="alert" id="alrtmsg">
+                        <span id="message"></span>
+                      </div>
+                      <input
+                        type="submit"
+                        class="form-control submit-btn"
+                        value="Connect"
+                        id="sbmit"
+                        style="text-transform: uppercase"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first 
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>-->
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries 
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>-->
+
+    <script src="assets/js/loginPage.js"></script>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
